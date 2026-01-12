@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAMEACG</title>
+    <style>
+        body { background:#000; color:#fff; font-family: sans-serif; margin:0; padding:10px; }
+        h1 { text-align:center; color:#ff66cc; }
+        .card { background:#222; margin:15px 0; padding:15px; border-radius:15px; box-shadow:0 4px 8px rgba(255,102,204,0.3); }
+        .card img { width:100%; border-radius:10px; }
+        .card h2 { margin:10px 0 5px; color:#ff99ff; }
+        .card p { margin:5px 0; color:#ccc; }
+        .card a { color:#66ccff; text-decoration:none; }
+        .update-btn { position:fixed; bottom:20px; right:20px; background:#ff3399; color:white; padding:15px; border-radius:50%; font-size:24px; box-shadow:0 4px 8px rgba(0,0,0,0.5); }
+    </style>
+</head>
+<body>
+    <h1>GAMEACG</h1>
+
+    <!-- 每款游戏一个 card，复制粘贴加新游戏 -->
+    <div class="card">
+        <img src="https://raw.githubusercontent.com/bianyujin/GAMEACG/main/game1.jpg" alt="游戏1封面">
+        <h2>【游戏名，比如 "纯爱之夏"】</h2>
+        <p>版本：v1.0 | 类型：纯爱</p>
+        <p><a href="【你的下载链接，比如百度网盘/磁力】" target="_blank">下载链接1</a></p>
+        <p><a href="【备用链接】" target="_blank">备用链接</a></p>
+    </div>
+
+    <div class="card">
+        <img src="https://raw.githubusercontent.com/【你的用户名】/【你的仓库名】/main/game2.jpg" alt="游戏2封面">
+        <h2>【妹存在感】</h2>
+        <p>版本：v2.0 | 类型：NTR</p>
+        <p><a href="【下载链接】" target="_blank">下载</a></p>
+    </div>
+
+    <!-- 加新游戏就复制上面一个 card 粘下面 -->
+
+    <div class="update-btn" onclick="location.reload()">🔄</div>
+</body>
+</html>
